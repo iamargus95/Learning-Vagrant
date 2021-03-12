@@ -42,10 +42,10 @@ apt-get install -y php7.2-mysql
 
 # Install Wordpress 
 mysql -u root -p
-CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'password';
-FLUSH PRIVILEGES;
-EXIT;
+# CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+# GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'password';
+# FLUSH PRIVILEGES;
+# EXIT;
 
 apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
 
